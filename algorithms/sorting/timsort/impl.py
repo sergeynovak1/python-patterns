@@ -82,6 +82,8 @@ def timsort(lst):
                 merge(lst, start, mid, end)
         size *= 2
 
+    return lst
+
 
 if __name__ == '__main__':
     unsorted_list = [25, 21, 22, 24, 23, 27, 26]
